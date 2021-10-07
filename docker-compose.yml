@@ -6,3 +6,4 @@ services:
     environment:
       ENABLE_EXTERNAL_BOOK_SERVICE: "true"
       DO_NOT_ENCRYPT: "false"
+      

@@ -1,0 +1,8 @@
+services:
+  details:
+    build: .
+    ports:
+    - "8081:8081"
+    environment:
+      ENABLE_EXTERNAL_BOOK_SERVICE: "true"
+      DO_NOT_ENCRYPT: "false"
